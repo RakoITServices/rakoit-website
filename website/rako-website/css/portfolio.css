@@ -1,0 +1,24 @@
+@import url('style.css');
+
+.portfolio-hero {
+  background: linear-gradient(135deg, var(--primary), var(--accent));
+  color: white;
+}
+
+.portfolio-card {
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+}
+
+.portfolio-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+}
+
+.portfolio-info {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}

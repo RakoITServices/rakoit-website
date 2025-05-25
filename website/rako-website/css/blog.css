@@ -1,0 +1,26 @@
+@import url('style.css');
+
+.blog-hero {
+  background: linear-gradient(135deg, var(--primary), var(--accent));
+  color: white;
+}
+
+.blog-card {
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.blog-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.blog-content h5 {
+  color: var(--heading-color);
+}
+
+.blog-content p {
+  color: var(--text-color);
+}

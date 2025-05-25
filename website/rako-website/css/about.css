@@ -1,0 +1,27 @@
+@import url('style.css'); /* Import global styles */
+
+.about-hero {
+  background: linear-gradient(135deg, var(--primary), var(--accent));
+  color: white;
+}
+
+.about-content img {
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.core-values {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+.value-card {
+  background-color: white;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+}
+
+.value-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
